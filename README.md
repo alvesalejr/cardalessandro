@@ -40,7 +40,7 @@ Estou estudando frameworks e bibliotecas modernas, e logo eles estarão por aqui
 
 ### 🤝 Vamos conectar?
 
-📬 Me chama no [LinkedIn](https://www.linkedin.com/in/seu-perfil)  
+📬 Me chama no [LinkedIn](https://www.linkedin.com/in/alvesalejr/)  
 🐙 Veja mais no meu [GitHub](https://github.com/alvesalejr)
 
 ---
