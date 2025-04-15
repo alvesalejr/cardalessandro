@@ -12,13 +12,6 @@
   --switch-bg-url: url(../assets/moon-stars.svg);
 }
 
-.light {
-  --text-color: black;
-  --bg-url: url(../assets/bg2.png);
-  --stroke-color: rgba(0, 0, 0, 0.5);
-  --switch-bg-url: url(../assets/sun.svg);
-}
-
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
@@ -37,7 +30,6 @@ body * {
 }
 
 /* Profile */
-
 #profile {
   text-align: center;
   padding: 24px;
@@ -46,16 +38,32 @@ body * {
 #profile img {
   width: 112px;
   margin: auto;
+  border-radius: 50%;
+  border: 3px solid aqua;
 }
 
+/* Nome e título */
 #profile p {
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 300;
   line-height: 24px;
+  opacity: 0.85;
+  color: var(--text-color);
   margin-top: 8px;
 }
 
-/* Switch */
+#profile .name {
+  font-weight: 400;
+  font-size: 18px;
+  opacity: 0.9;
+}
+#profile .title {
+  font-style: italic;
+  font-size: 16px;
+  opacity: 0.7;
+}
 
+/* Switch */
 #switch {
   position: relative;
   width: 64px;
@@ -63,42 +71,7 @@ body * {
   margin: 4px auto;
 }
 
-#switch button {
-  width: 32px;
-  height: 32px;
-  background: white var(--switch-bg-url) no-repeat center;
-  border: 0;
-  border-radius: 50%;
-
-  position: absolute;
-  z-index: 1;
-  left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  animation: slide-back 0.4s;
-}
-
-.light #switch button {
-  animation: slide-in 0.4s forwards;
-}
-
-#switch button:hover {
-  outline: 8px solid var(--stroke-color);
-}
-
-#switch span {
-  display: block;
-  width: 64px;
-  height: 24px;
-  background-color: var(--surface-color);
-  border: 1px solid var(--stroke-color);
-  backdrop-filter: blur(4px);
-  -webkit-backdrop-filter: blur(4px);
-  border-radius: 9999px;
-}
-
 /* Links */
-
 ul {
   list-style: none;
   display: flex;
@@ -107,7 +80,6 @@ ul {
 
   padding: 24px 0;
 }
-
 ul li a {
   display: flex;
   justify-content: center;
@@ -125,9 +97,7 @@ ul li a {
   text-decoration: none;
   font-weight: 500;
 }
-
 /* pseudo-selector */
-
 ul li a:hover {
   color: var(--text-color2);
   border: 1.5px solid var(--text-color2);
@@ -139,7 +109,6 @@ ul li a .logo {
 }
 
 /* Links social */
-
 #social-links {
   display: flex;
   justify-content: center;
@@ -147,11 +116,9 @@ ul li a .logo {
   padding: 24px 0;
   font-size: 24px;
 }
-
 #social-links a .logo:hover {
   color: aqua;
 }
-
 #social-links a {
   display: flex;
   align-items: center;
@@ -177,22 +144,59 @@ ul li a .logo {
   border: 1.5px solid red;
   color: red;
 }
-
 #agred .logo {
   color: red;
+}
+ 
+/* Modals */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 999;
+}
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  height: 90%;
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.modal-content iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 18px;
+  background: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
 }
 
 footer {
   padding: 24px 0;
   text-align: center;
 }
-
 footer span {
   color: aqua;
 }
 
 /* Animação */
-
 @keyframes slide-in {
   from {
     left: 0;
@@ -201,7 +205,6 @@ footer span {
     left: 50%;
   }
 }
-
 @keyframes slide-back {
   from {
     left: 50%;

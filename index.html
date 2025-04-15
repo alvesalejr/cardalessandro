@@ -1,74 +1,70 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Olá, Seja bem vindo(a).</title>
+  </head>
 
-<head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="src/style.css">
-  <link rel="shortcut icon" href="./assets/icon.png" type="image/x-icon">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-  <title> Olá, seja bem vindo(a). </title>
-</head>
+  <body>
+    <div id="container">
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="FotoAvatarAlessandro" />
+        <p class="name">Alessandro Júnior</p>
+        <p class="title">Fullstack Developer</p>
+      </div>
 
-<body>
+      <ul>
+        <li class="list"><a href="https://www.linkedin.com/in/alvesalejr/" target="_blank">Linkedin</a></li>
+        <li class="list"><a href="#" id="openCurriculo">Currículo</a></li>
+        <li class="list"><a href="https://github.com/alvesalejr" target="_blank">Projetos</a></li>
+        <li class="list"><a target="_blank" href="https://wa.me/5561984250137">Contato<ion-icon name="logo-whatsapp" class="logo"></ion-icon></a></li>
+      </ul>
 
-  <div id="container">
-    <div id="profile">
-      <img src="./assets/avatar.png" alt="FotoAvatarAlessandro" />
-      <p><span> Alessandro Júnior <a target="_blank"></a></span></p>
-      <p><span> Fullstack Developer <a target="_blank"></a></span></p>
+      <div id="social-links">
+        <a target="_blank"><i class="fa-brands fa-html5 logo"></i></a>
+        <a target="_blank"><i class="fa-brands fa-css3-alt logo"></i></a>
+        <a target="_blank"><i class="fa-brands fa-js logo"></i></a>
+        <a target="_blank"><i class="fa-brands fa-node-js logo"></i></a>
+        <a target="_blank"><i class="fa-brands fa-react logo"></i></a>
+        <a target="_blank"><i class="fa-brands fa-php logo"></i></a>
+        <a target="_blank"><ion-icon class="logo" name="logo-python"></ion-icon></a>
+        <a target="_blank"><i class="fa-brands fa-docker logo"></i></a>
+        <a target="_blank"><i class="fa-brands fa-git-alt logo"></i></a>
+      </div>
+    </div>
+    
+    <div id="pdfModal" class="modal">
+      <div class="modal-content">
+        <button id="closeModal" class="close-button">X</button>
+        <iframe src="pdf/alessandrojroficial.pdf"></iframe>
+      </div>
     </div>
 
-    <div id="switch" onclick="toggleMode()">
-      <button></button>
-      <span></span>
-    </div>
+    <footer>
+      &copy Todos os direitos reservados: <span>Alessandro Júnior</span>
+    </footer>
 
-    <ul>
-      <li class="list"><a href="https://www.linkedin.com/in/alvesalejr/" target="_blank">Linkedin</a></li>
-      <li><a href="pdf/alessandroficial.pdf" target="_blank" download="Currículo">Currículo</a></li>
-      <li><a href="https://github.com/alvesalejr" target="_blank">Projetos</a></li>
-      <li><a target="_blank" href="https://wa.me/5561984250137">Contato<ion-icon name="logo-whatsapp" class="logo"></ion-icon>
-  </a>
-</li>
-    </ul>
-    <div id="social-links">
-
-      <a target="_blank">
-           <i class="fa-brands fa-html5 logo"></i>
-      </a>
-      <a target="_blank">
-          <i class="fa-brands fa-css3-alt logo"></i>
-      </a>
-      <a target="_blank">
-          <i class="fa-brands fa-js logo"></i>
-      </a>
-      <a target="_blank">
-          <i class="fa-brands fa-react logo"></i>
-      </a>
-      <a target="_blank">
-        <i class="fa-brands fa-php logo"></i>
-      </a>
-      <a target="_blank">
-        <ion-icon class="logo" name="logo-python"></ion-icon>
-      </a>
-    </div>
-    </div>
-
-  </div>
-
-  </div>
-
-  <footer>&copy Todos os direitos reservados: <span>Alessandro Júnior</span></footer>
-
-  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-
-  <script src="src/script.js"></script>
-
-</body>
-
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+    <script src="src/script.js"></script>
+  </body>
 </html>
