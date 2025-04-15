@@ -1,25 +1,48 @@
-<h1 align="center"> Olá, Alessandro card. </h1>
+<h1 align="center">🚀 Portfólio</h1>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
+  <a href="https://alvesalejr.github.io/cardalessandro/" target="_blank">🔗 Acesse aqui</a>
 </p>
 
-## 🚀 Tecnologias
+---
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+### 📌 Sobre o projeto
 
-- HTML e CSS
-- JavaScript
-- Git e Github
+Esse portfólio foi criado com o objetivo de reunir todos os meus **meios de contato** e servir como um **cartão de apresentação rápido**, além de centralizar meus **projetos pessoais**.
 
-## 💻 Projeto
+Desenvolvido com foco em praticar e consolidar o essencial: **HTML, CSS e JavaScript** — sem frameworks, valorizando o básico bem feito.
 
-O Olá, Alessandro card. é um agregador de links para usar como cartão de visitas online.
+---
 
-- [Acesse o projeto finalizado, online](https://alvesalejr.github.io/card-alessandro)
+### ✨ Funcionalidades
 
-## :memo: Licença
+- 📇 Link direto para redes e contatos
+- 💻 Apresentação dos projetos pessoais
+- 📱 Layout responsivo
+- 🎯 Simples, funcional e direto ao ponto
 
-Esse projeto está sob a licença MIT.
+---
+
+### 🛠 Tecnologias utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (puro)
+
+---
+
+### 📈 Em constante evolução...
+
+Pretendo manter o portfólio sempre atualizado com novos projetos, melhorias e aprendizados.  
+Estou estudando frameworks e bibliotecas modernas, e logo eles estarão por aqui também! 😉
+
+---
+
+### 🤝 Vamos conectar?
+
+📬 Me chama no [LinkedIn](https://www.linkedin.com/in/seu-perfil)  
+🐙 Veja mais no meu [GitHub](https://github.com/alvesalejr)
+
+---
+
+> 💼 Sempre aberto a novos desafios e oportunidades na área de **desenvolvimento front-end**!
